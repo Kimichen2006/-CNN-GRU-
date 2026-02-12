@@ -18,7 +18,7 @@ warnings.filterwarnings('ignore')
 # ======================
 class Config:
     """集中管理所有超參數"""
-    CSV_PATH = "C:/Users/user/Desktop/量化/tw_stock_data/csv/all_stocks.csv"
+    CSV_PATH = "PUT YOUR FILE PATH HERE"
     WINDOW_SIZE = 20
     BATCH_SIZE = 64
     EPOCHS = 50
@@ -526,4 +526,5 @@ def main():
     print("\n✓ Training completed successfully!")
 
 if __name__ == "__main__":
+
     main()
